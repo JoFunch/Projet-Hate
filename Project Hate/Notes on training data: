@@ -1,0 +1,27 @@
+Notes on training data:
+
+What is offensive?
+- the data can be marked offensive without having an explicit "target". A "target", here, means what explicit deixis of the apparant text annotates/ of the tweet. Non-targetted tweets still offensive merely uses "offensive" language as adjectival amplifiers. 
+- Data can be critically directed towards a target of the tweet without being offensive. (this is not to criticise the data, but to make explicit what is meant by offensive)
+- There is not a data-"map" of keys noting what segment of the tweet made the message offensive. 
+
+
+Quick description of the data:
+- The data is collected off of Twitter and danish reddit-blog. These messages vary in length, topic, explicit-ness, and lexical and symbolic usage. 
+
+
+Future work:
+- It would be interesting to produce a more fine-grained data-set  able to get past the simply point of signalling "where explicit langauge is used". Here, such fine-grained areas/topics/categories would include: 
+	A. explicit language filtered by sentimental analysis. Essentially allowing the reader to find
+		1. Where explicit language is used (currently doing)
+		2. Where explicit language is used in positive sentiment-contexts as, e.x., adjectival intensifiers.
+		3. Where explicit language is used in negative target-driven contexts
+		4. Where non-explicit langauge is used in negative target-driven contexts
+
+- Obviously, this would require a much greater contextual knowledge then what was demonstrated in the dataset, and become complicated if the agenda would be to venture into domains such as "sarcasm".
+
+
+ex.
+2386	Hahaha. Hvilken tråd er det i? Endnu et eksempel på svenskens ynkelige brug af censur, som de efterhånden bruger til at censurere alt fra køn, nationalitet og sikkert snart også deres modbydelige "ködböllër"	NOT
+
+__label__OFF i stolen med den trunte
