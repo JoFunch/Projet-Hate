@@ -24,3 +24,5 @@ Links:
 - Data: https://figshare.com/articles/dataset/Danish_Hate_Speech_Abusive_Language_data/12220805 (download)
 - Data: Description: https://sites.google.com/site/offensevalsharedtask/home
 - Danish Sentiment Library: https://github.com/fnielsen/afinn
+
+The accuracy will stagnates over 10~ epochs to an accuracy of 54.956756756756754
