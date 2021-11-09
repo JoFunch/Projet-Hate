@@ -25,4 +25,4 @@ Links:
 - Data: Description: https://sites.google.com/site/offensevalsharedtask/home
 - Danish Sentiment Library: https://github.com/fnielsen/afinn
 
-The accuracy will stagnates over 10~ epochs to an accuracy of 54.956756756756754
+The accuracy will stagnate over 10~ epochs to an accuracy of 54.956756756756754
