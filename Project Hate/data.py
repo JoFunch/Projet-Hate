@@ -199,7 +199,7 @@ class LSTM1(nn.Module):
 		return out
 
 
-num_epochs = 1000 #1000 epochs
+num_epochs = 2000 #1000 epochs
 learning_rate = 0.001 #0.001 lr
 
 input_size = 201 #number of features
@@ -244,6 +244,10 @@ with torch.no_grad():
 		total += labels.shape[0]
 		correct += int((predicted == labels).sum())
 print("Accuracy: %f", correct / total)
+
+
+#predict:
+
 
 #Accuracy: %f 54.956756756756754
 # 10 epoch, 1 class, 
